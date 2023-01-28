@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Classification</title>
+    <style>
+        body {
+            background-color: gray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+        }
+        h1:first-of-type {
+            margin-bottom: 15%;
+        }
+        form {
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5%;
+        }
+        img {
+            margin-bottom: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Upload an image</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="image">
+            <input type="submit" value="Upload">
+        </form>
+        <img src="data:image/png;base64, {{ image }}">
+        <h1>Predictions</h1>
+        <ul>
+            {% for pred in predictions %}
+            <li>{{ pred }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
