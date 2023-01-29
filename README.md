@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 - PIL
 
 ## Installing:
-##### Without [Google Colab Notebook](https://colab.research.google.com/notebook):
+##### Without <a href="https://colab.research.google.com/notebook" target="_blank">Google Colab Notebook</a>:
 - Clone the repository to your local machine.
 - Create a virtual environment and activate it *(using virtualenv or conda)*.
 #### Setup:
@@ -22,14 +22,13 @@ These instructions will get you a copy of the project up and running on your loc
 - Post file via the local-page on port 5000 or Input the path of the image you want to classify
 
 ## Built With:
-[Tensorflow](https://www.tensorflow.org/) - The deep learning framework used.<br>
-[Keras](https://keras.io/) - The high-level neural networks API.
+<a href="https://www.tensorflow.org/" target="_blank">Tensorflow</a> - The deep learning framework used.<br>
+<a href="https://keras.io/" target="_blank">Keras</a> - The high-level neural networks API.
 
 ## Additional Resources
-- [Keras documentation](https://keras.io/)
-- [Tensorflow documentation](https://www.tensorflow.org/api_docs/python/tf/all_symbols)
-- [Pillow documentation](https://pillow.readthedocs.io/en/stable/)
-- [Matplotlib documentation](https://matplotlib.org/3.3.3/contents.html)
+- <a href="https://www.tensorflow.org/api_docs/python/tf/all_symbols" target="_blank">Tensorflow documentation</a>
+- <a href="https://pillow.readthedocs.io/en/stable/" target="_blank">Pillow documentation</a>
+- <a href="https://matplotlib.org/3.3.3/contents.html" target="_blank">Matplotlib documentation</a>
 
 
 ## Troubleshooting
@@ -37,5 +36,5 @@ These instructions will get you a copy of the project up and running on your loc
 - If you have any other issues or questions, feel free to open an issue on the repository.
 
 ## Acknowledgments:
-- The pre-trained model used in this project was trained on the [ImageNet](https://image-net.org/) dataset.
-- The script is based on the [Keras documentation](https://keras.io/examples/vision/image_classification_from_scratch/) example.
+- The pre-trained model used in this project was trained on the <a href="https://image-net.org/" target="_blank">ImageNet</a> dataset.
+- The script is based on the <a href="https://keras.io/examples/vision/image_classification_from_scratch/" target="_blank">Keras documentation</a> example.
